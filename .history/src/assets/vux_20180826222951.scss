@@ -1,0 +1,113 @@
+.weui-input {
+  height: 100%;
+  font-size: pxTorem(28);
+  color: #999;
+}
+
+.weui-cells {
+  margin-top: 0 !important;
+}
+
+.weui-cells:before {
+  display: none;
+}
+
+.weui-cell:before {
+  // box-sizing: border-box;
+}
+
+.vux-x-switch,
+.vux-selector,
+.vux-x-input,
+.weui-cell_access {
+  height: pxTorem(88);
+}
+
+.weui-cell {
+  // height:88px;
+  padding:pxTorem(10) 0 !important;
+  // padding-left: 0;
+  // padding-right: 0;
+  font-size: pxTorem(30);
+  color: #333;
+  text-decoration: none;
+}
+
+.weui-cell_select .weui-select {
+  padding: 0;
+  font-size: pxTorem(28);
+  color: #999;
+}
+
+.weui-cell_select .weui-cell__bd:after {
+  right: 0;
+}
+
+.weui-cells__title {
+  font-size: pxTorem(30) !important;
+  color: #333 !important;
+  background: #fff !important;
+  padding: pxTorem(20) 0 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.weui-textarea {
+  background: #f1f2f3;
+  padding: pxTorem(20) pxTorem(20) 0;
+}
+
+.vux-x-textarea {
+  margin-bottom: pxTorem(30);
+}
+
+.weui-cell__bd {
+  position: relative;
+  padding-right: pxTorem(15px);
+  .weui-textarea-counter {
+    position: absolute;
+    right: pxTorem(20);
+    bottom: pxTorem(20);
+  }
+}
+
+.vux-popup-dialog .vux-popup-picker-container .vux-popup-header {
+  font-size: pxTorem(30);
+}
+
+.weui-label {
+  font-size: pxTorem(30);
+  color: #333;
+}
+
+.scroller-item {
+  font-size: pxTorem(35);
+  color: red; // color:#333;
+}
+
+.dp-header .dp-item {
+  font-size: pxTorem(35);
+}
+
+.dp-container {
+  font-size: pxTorem(40);
+}
+
+.vux-popup-header {
+  font-size: pxTorem(30);
+  height: pxTorem(60);
+}
+
+.weui-cell:before {
+  left: 0 !important;
+}
+
+.vux-selector.weui-cell_select-after {
+  padding-left: 0 !important;
+  padding-right: pxTorem(2px);
+}
+
+.vux-cell-box:not(:first-child):before {
+  left: 0 !important;
+}

@@ -1,0 +1,11 @@
+/*
+* pxTorem
+* @param:$px为需要转换的字号
+*/
+
+@function pxTorem($px) {
+  @if unitless($px) {
+    @return pxTorem($px + 0px);
+  }
+  @return $px / 20px * 1rem;
+}
